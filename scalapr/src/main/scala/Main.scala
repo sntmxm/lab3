@@ -1,3 +1,11 @@
+object Main {
+  def main(args: Array[String]): Unit = {
+    val poly = Poly("x", Map(2 -> 1, 0 -> 5))
+       
+
+  }
+}
+
 case class Poly(
   varName: String,
   coeff: Map[Int, Int],
